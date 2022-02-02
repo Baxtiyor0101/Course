@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #191919;
+
+}
+
+.allSite{
+    display: flex;
+}
+
+.sidebar{
+    flex: 1;
+    height: 100%;
+}
+
+.bi-justify-right{
+    color: #fff;
+    font-size: 60px;
+}
+
+.icon{
+    background-color: gray;
+    padding: 25px;
+}
+
+.main__section{
+    flex: 14;
+}
+.bottomicon{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400%;
+}
+
+.bit{
+    margin-bottom: 35px;
+}
+
+.home{
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navContainer{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navContainer li{
+    margin-right: 40px;
+}
+
+.asosiy{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+li:hover{
+    border-bottom:2px solid gray;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.info{
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center;
+}
+
+.imgs{
+    width: 120px;
+}
+
+.responsive350{
+    display: none;
+}
+
+@media only screen and (max-width:765px) {
+    .info{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+    .imgs{
+        width: 450px;
+    }
+    .navContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    li{
+        margin-bottom: 5px;
+    }
+    .asosiy{
+        display: block;
+    }
+    .mainleft{
+        text-align: center;
+    }
+    .mainright{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:350px) {
+    .navbar{
+        position: relative;
+        background-color: gray;
+        position: fixed;
+        width: 100%;
+    }
+    .navContainer{
+        display: none;
+    }
+    .imgs{
+        width: 300px;
+    }
+    .sidebar{
+        display: none;
+    }
+
+    .responsive350{
+        display: block;
+        position: fixed;
+        right: 60px;
+    }
+    .Aer{
+        position: fixed;
+    }
+    
+
+}
