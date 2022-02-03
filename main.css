@@ -6,7 +6,6 @@
 
 body{
     background-color: #191919;
-    width: 100%;
 }
 
 .allSite{
@@ -57,7 +56,7 @@ body{
 }
 
 .navContainer li{
-    margin-right: 40px;
+    margin-right: 3vw;
 }
 
 .asosiy{
@@ -100,10 +99,13 @@ li:hover{
     .imgs{
         width: 450px;
     }
-    .navContainer{
+    .sidebar{
+        display: none;
+    }
+    /* .navContainer{
         display: flex;
         flex-direction: column-reverse;
-    }
+    } */
     li{
         margin-bottom: 5px;
     }
@@ -119,7 +121,7 @@ li:hover{
 }
 
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:320px) {
     .navbar{
         position: relative;
         background-color: gray;
@@ -143,6 +145,9 @@ li:hover{
     }
     .Aer{
         position: fixed;
+    }
+    .work{
+        font-size: medium;
     }
     
 
