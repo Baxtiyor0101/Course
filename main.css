@@ -97,10 +97,13 @@ li:hover{
         font-size: 30px;
     }
     .imgs{
-        width: 450px;
+        width: 300px;
     }
     .sidebar{
         display: none;
+    }
+    .work{
+        font-size: 10vw;
     }
     /* .navContainer{
         display: flex;
@@ -118,6 +121,12 @@ li:hover{
     .mainright{
         text-align: center;
     }
+    .navContainer{
+        display: none;
+    }
+    .responsive350{
+        display: block;
+    }
 }
 
 
@@ -132,7 +141,7 @@ li:hover{
         display: none;
     }
     .imgs{
-        width: 300px;
+        width: 250px;
     }
     .sidebar{
         display: none;
@@ -146,8 +155,12 @@ li:hover{
     .Aer{
         position: fixed;
     }
-    .work{
-        font-size: medium;
+    .sizes1{
+        font-size: 30px;
+    }
+
+    .sizes2{
+        font-size: 20px;
     }
     
 
